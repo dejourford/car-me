@@ -28,6 +28,10 @@ a {
     color: inherit;
 }
 
+li {
+    list-style: none;
+}
+
 .mobile-nav {
     background: black;
     color: white;
@@ -64,18 +68,65 @@ a {
 }
 
 .fa-bars {
+    display: none;
     font-size: 1.5rem;
     margin: 20px 20px;
-    position: absolute;
-    right: 0;
-    
+}
+
+.site-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: var(--large-font-weight);
+}
+
+
+.site-logo {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+}
+
+.fa-car-side {
+    font-size: 3rem;
+    color: gold;
+    transform: scaleX(-1)
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-weight: var(--bold-font-weight);
+
+}
+
+
+
+.site-nav-links {
+    display: flex;
 }
 
 .site-links {
+    align-items: center;
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
+    
+
 }
 
-.site-links li {
-    list-style: none;
+.site-links-right {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-btn {
+    background: gold;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+
 }
