@@ -22,11 +22,17 @@ body {
     --small-font-weight: 400;
 }
 
+a {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
 
 .mobile-nav {
     background: black;
     color: white;
     display: flex;
+    display: none;
     flex-direction: column;
     height: 100vh;
     justify-content: center;
@@ -55,4 +61,21 @@ body {
     position: absolute;
     right: 0;
     top: 0;
+}
+
+.fa-bars {
+    font-size: 1.5rem;
+    margin: 20px 20px;
+    position: absolute;
+    right: 0;
+    
+}
+
+.site-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-links li {
+    list-style: none;
 }
