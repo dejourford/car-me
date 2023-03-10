@@ -23,5 +23,36 @@ body {
 }
 
 
+.mobile-nav {
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+
+}
 
 
+.mobile-nav li {
+    list-style: none;
+}
+
+.mobile-links {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    gap: 30px;
+
+}
+
+.fa-xmark {
+    font-size: 2.5rem;
+    margin: 30px 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
