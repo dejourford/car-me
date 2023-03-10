@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+    --small-font-weight: 400;
+    --medium-font-weight: 500;
+    --large-font-weight: 600;
+    --bold-font-weight: 700;
+}
+
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: black;
+}
+
+
