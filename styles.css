@@ -32,19 +32,29 @@ li {
     list-style: none;
 }
 
+
+/* open and close mobile nav */
 .mobile-nav {
     background: black;
     color: white;
     display: flex;
-    display: none;
     flex-direction: column;
     height: 100vh;
     justify-content: center;
+    left: -2000px;
     padding: 20px;
+    position: absolute;
     text-align: center;
+    transition: 0.6s;
     width: 100%;
+    z-index: 9999;
 
 }
+
+.mobile-nav.active {
+    left: 0;
+    transition: 0.6s;
+}   /* end of open and close hamburger nav */ 
 
 
 .mobile-nav li {
