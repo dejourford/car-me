@@ -100,8 +100,14 @@ li {
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
-    font-weight: var(--bold-font-weight);
+}
 
+.logo-top-text {
+    font-weight: var(--bold-font-weight);
+}
+
+.logo-bottom-text {
+    font-weight: var(--small-font-weight);
 }
 
 
@@ -129,4 +135,16 @@ li {
     padding: 15px;
     border-radius: 5px;
 
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1000px){
+    .fa-bars {
+        display: block;
+    }
+
+    .site-links, .site-links-right {
+        display: none;
+    }
 }
