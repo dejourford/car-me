@@ -223,7 +223,7 @@ h1 {
 
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1031px){
     .fa-bars {
         display: block;
     }
@@ -231,4 +231,27 @@ h1 {
     .site-links, .site-links-right {
         display: none;
     }
+
+    .hero {
+        align-items: center;
+        background-image: none;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero-right {
+        display: none;
+    }
+
+    .hero-left {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        max-width: 60%;
+    }
+
+  
+    
 }
