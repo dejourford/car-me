@@ -1,3 +1,4 @@
+// HAMBURGER MENU
 const mobileNav = document.querySelector('.mobile-nav')
 
 
