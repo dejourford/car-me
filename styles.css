@@ -223,7 +223,7 @@ h1 {
 
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 1031px){
+@media screen and (max-width: 1165px){
     .fa-bars {
         display: block;
     }
@@ -246,9 +246,7 @@ h1 {
         padding: 10px;
     }
 
-    .hero-right {
-        display: none;
-    }
+
 
     .hero-left {
         align-items: center;
@@ -262,6 +260,12 @@ h1 {
     }
   
     
+}
+
+@media screen and (max-width: 970px) {
+    .hero-right {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 625px) {
