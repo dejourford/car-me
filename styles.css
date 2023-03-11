@@ -23,9 +23,10 @@ body {
 }
 
 a {
-    text-decoration: none;
-    outline: none;
     color: inherit;
+    outline: none;
+    text-decoration: none;
+    
 }
 
 li {
@@ -84,12 +85,12 @@ li {
 }
 
 .site-nav {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 1em 5em;
+    display: flex;
     font-size: 1rem;
     font-weight: var(--large-font-weight);
+    justify-content: space-between;
+    padding: 1em 5em;
 }
 
 
@@ -101,8 +102,8 @@ li {
 }
 
 .fa-car-side {
-    font-size: 3rem;
     color: gold;
+    font-size: 3rem;
     transform: scaleX(-1)
 }
 
@@ -159,14 +160,66 @@ li {
 
 .primary-btn {
     background: gold;
+    border-radius: 3px;
     color: white;
-    padding: 15px;
-    border-radius: 5px;
+    padding: 0.9em 2em;
+    transition: 0.5s;
+}
 
+.primary-btn:hover {
+    background: black;
 }
 
 /* HERO SECTION */
+.hero {
+    align-items: flex-start;  
+    background-image: url('images/hero-background.webp');
+    background-position: right;
+    background-size: 800px;
+    background-repeat: no-repeat;
+    display: flex;
+    gap: 1.5rem;
+    height: 100vh;
+    padding: 4em;
+      
+}
 
+.hero-left {
+   display: flex;
+   flex-direction: column;
+   gap: 1em;
+   justify-content: center;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: var(--large-font-weight); 
+   
+}
+
+h1 {
+    font-size: 3.7rem;
+    font-weight: var(--bold-font-weight);
+    line-height: 4rem;
+}
+
+.hero-emphasis {
+    color: gold;
+}
+
+.hero-text {
+    font-size: 1rem;
+    font-weight: var(--small-font-weight);
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1.5em;
+    margin-top: 1.4rem;
+
+  
+    
+}
 
 
 /* MEDIA QUERIES */
