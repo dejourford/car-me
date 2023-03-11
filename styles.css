@@ -232,6 +232,10 @@ h1 {
         display: none;
     }
 
+    .site-nav {
+        padding: 0em 2em;
+    }
+
     .hero {
         align-items: center;
         background-image: none;
@@ -239,6 +243,7 @@ h1 {
         height: 100%;
         justify-content: center;
         text-align: center;
+        padding: 10px;
     }
 
     .hero-right {
@@ -252,6 +257,21 @@ h1 {
         max-width: 60%;
     }
 
+    h1 {
+        font-size: 3rem;
+    }
   
     
+}
+
+@media screen and (max-width: 625px) {
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero-left {
+        max-width: 80%;
+    }
 }
