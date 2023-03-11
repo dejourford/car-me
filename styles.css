@@ -188,6 +188,7 @@ li {
 .primary-btn {
     background: gold;
     border-radius: 3px;
+    box-shadow: 0.5px 0.5px 5px black;
     color: white;
     padding: 0.9em 2em;
     transition: 0.5s;
@@ -302,6 +303,7 @@ select, input {
 .search-btn {
     background: gold;
     border-radius: 3px;
+    box-shadow: 0.5px 0.5px 5px black;
     color: white;
     font-size: 1.1rem;
     font-weight: 600;
