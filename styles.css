@@ -312,6 +312,68 @@ select, input {
     background: black;
 }
 
+/* PLANNING SECTION */
+.trip-planning {
+    padding: 4em;
+}
+
+.trip-planning-header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3em 0em;
+}
+
+.trip-planning-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.trip-planning-sm-text {
+    font-size: 1.2rem ;
+    font-weight: var(--small-font-weight);
+}
+
+.trip-planning-lg-text {
+    font-size: 2.5rem ;
+    font-weight: var(--bold-font-weight);
+}
+
+.planning-feature-groups {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.planning-feature {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+    justify-content: center;
+    padding: 0rem 3rem;
+    text-align: center;
+}
+
+.planning-feature p {
+    font-weight: var(--small-font-weight);
+}
+
+.fa-car-tunnel, .fa-headset, .fa-car-burst {
+    background: black;
+    border-radius: 90% 30% 30% 90%;
+    color: gold;
+    font-size: 4rem;
+    padding: 0.3em;
+    
+}
+
+h5 {
+    font-size: 1.5rem;
+    font-weight: var(--large-font-weight);
+}
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 1165px){
@@ -386,4 +448,30 @@ select, input {
         font-size: 0.8rem;
        
     }
+}
+
+@media screen and (max-width: 1072px) {
+    .planning-feature-groups {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 2em;
+        
+    }
+}
+
+@media screen and (max-width: 885px) {
+    .planning-feature-groups {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 3.5em;
+        
+    }
+
+}
+
+@media screen and (max-width: 445px) {
+    .planning-feature p {
+        font-size: 1rem;
+    }
+
 }
