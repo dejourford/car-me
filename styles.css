@@ -397,6 +397,65 @@ h5 {
     font-weight: var(--large-font-weight);
 }
 
+/* CAR COLLECTION SECTION */
+.car-collection-preview {
+    padding: 3.5em 0em;
+}
+
+.car-collection-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.car-collection-header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h6 {
+    font-size: 1.5rem;
+    font-weight: var(--large-font-weight);
+}
+
+.car-collection-header-text {
+    font-size: 2.5rem;
+    font-weight: var(--bold-font-weight);
+}
+
+.car-collection-text {
+    font-size: 1rem;
+    font-weight: var(--small-font-weight);
+    padding: 0em 27em;
+}
+
+.car-collection-preview {
+    display: flex;
+}
+
+.car-collection-left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 1em 2em;
+}
+
+.car-title {
+    background: lightgray;
+    box-shadow: 0px 0px 5px lightgray;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: var(--large-font-weight);
+    padding: 0.7em 1.5em;
+    transition: 0.5s;
+}
+
+.car-title:hover {
+    background: gold;
+}
+
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 1165px){
     .fa-bars {
