@@ -201,7 +201,7 @@ li {
     display: flex;
     gap: 1.5rem;
     height: 100vh;
-    padding: 4em;
+    padding: 5em 4em;
       
 }
 
@@ -249,8 +249,8 @@ h1 {
 
 .book-a-car-header {
     font-size: 2rem;
-    padding: 1.5em;
-    text-align: left;
+    padding: 0em 1.5em;
+    text-align: center;
 }
 
 
@@ -353,7 +353,7 @@ select, input {
     
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 1060px) {
     .hero-right {
         display: none;
     }
