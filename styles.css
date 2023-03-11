@@ -313,6 +313,22 @@ select, input {
 }
 
 /* PLANNING SECTION */
+#scroll-up-arrow {
+    background: black;
+    border: 3px solid gold;
+    bottom: 20px;
+    color: gold;
+    display: block;
+    font-size: 2rem;
+    padding: 0.1em 0.5em;
+    position: fixed;
+    right: 20px;
+}
+
+#scroll-up-arrow.hidden {
+    display: none;
+  }
+
 .trip-planning {
     padding: 4em;
 }
@@ -449,6 +465,7 @@ h5 {
        
     }
 }
+
 
 @media screen and (max-width: 1072px) {
     .planning-feature-groups {
