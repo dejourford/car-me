@@ -273,8 +273,9 @@ h1 {
 
 
 .button-group-header {
-    display: flex;
     align-items: center;
+    display: flex;
+    font-weight: 800;
     gap: 0.7em;
     padding: 0.5rem 0rem;
 }
@@ -367,5 +368,22 @@ select, input {
 
     .hero-left {
         max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 1165px) {
+    .book-a-car-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .book-a-car-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    select, input {
+        font-size: 0.8rem;
+       
     }
 }
