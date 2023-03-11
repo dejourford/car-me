@@ -121,7 +121,13 @@ li {
 .fa-car-side {
     color: gold;
     font-size: 3rem;
-    transform: scaleX(-1)
+    transform: scaleX(-1);
+    transition: 0.5s;
+}
+
+.fa-car-side:hover {
+    color: black;
+    
 }
 
 .fa-location-dot, .fa-calendar-days, .fa-car{
@@ -237,9 +243,6 @@ h1 {
     display: flex;
     gap: 1.5em;
     margin-top: 1.4rem;
-
-  
-    
 }
 
 /* BOOK A CAR SECTION */
@@ -318,6 +321,7 @@ select, input {
     border: 3px solid gold;
     bottom: 20px;
     color: gold;
+    cursor: pointer;
     display: block;
     font-size: 2rem;
     padding: 0.1em 0.5em;
