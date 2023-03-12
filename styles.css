@@ -524,6 +524,34 @@ h6 {
     background: black;
 }
 
+/* BANNER SECTION */
+.banner {
+    align-items: center;
+    background: #333333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    
+    padding: 3em 0em;
+    text-align: center;
+}
+
+.banner-header {
+    font-size: 3rem;
+    font-weight: var(--bold-font-weight);
+}
+
+.banner-text {
+    font-size: 1.5rem;
+    font-weight: var(--small-font-weight);
+}
+
+.low-rates-text {
+    color: gold;
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 1165px){
     .fa-bars {
