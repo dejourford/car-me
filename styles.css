@@ -320,14 +320,15 @@ select, input {
 
 /* PLANNING SECTION */
 #scroll-up-arrow {
-    background: black;
+    background: gold;
+    border: 3px solid white;
     border-radius: 4px;
     bottom: 20px;
-    color: gold;
+    color: white;
     cursor: pointer;
     display: block;
     font-size: 2rem;
-    padding: 0em 0.5em;
+    padding: 0em 0.3em;
     position: fixed;
     right: 20px;
 }
@@ -632,6 +633,82 @@ h6 {
     font-weight: var(--small-font-weight);
 }
 
+/* REVIEW SECTION */
+.review-section {
+    background: #f2f2f2;
+    padding: 6em 0em;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.review-section-header {
+    padding: 0em 4em;
+    text-align: center;
+}
+
+.review-header-medium {
+    font-size: 1.5rem;
+    font-weight: var(--medium-font-weight);
+}
+
+.review-header-large {
+    font-size: 2.5rem;
+    font-weight: var(--large-font-weight);
+}
+
+.review-header-text-small {
+    font-size: 1rem;
+    font-weight: var(--small-font-weight);
+    
+}
+
+.review-cards {
+    display: flex;
+    gap: 3rem;
+    justify-content: space-evenly;
+    padding: 3em;
+}
+
+.card {
+    background: white;
+    box-shadow: 0 10px 10px 0 lightgray ;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding: 2em 3em;
+    max-width: 30rem;
+}
+
+#dexter, #goofy {
+    background-color: lightgray;
+    border-radius: 50%;
+    max-width: 75px;
+    padding: 1em;
+}
+
+.card-footer {
+    align-items: center;
+    display: flex;
+    gap: 1em;
+}
+
+.fa-quote-right {
+    color: gold;
+    font-size: 4rem;
+    display: flex;
+    align-items: right;
+}
+
+.review-text-medium {
+    font-size: 1.3rem;
+    font-weight: var(--medium-font-weight);
+}
+
+.review-name-large {
+    font-size: 1rem;
+    font-weight: var(--large-font-weight);
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 1165px){
     .fa-bars {
@@ -786,3 +863,12 @@ h6 {
         flex-direction: column;
     }
 }
+
+@media screen and (max-width: 946px){
+    .review-cards {
+        align-items: center;
+        flex-direction: column;
+        
+    }
+}
+
