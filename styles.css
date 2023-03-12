@@ -710,6 +710,66 @@ h6 {
     font-weight: var(--large-font-weight);
 }
 
+
+/* FAQ SECTION */
+.faq-section {
+    background-image: url('images/g-wagon-back.png');
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position-x: -75px;
+    padding: 2em 6em;
+}
+
+.faq-header {
+    padding: 4em;
+    margin: 0 auto;
+    max-width: 70%;
+    text-align: center;
+}
+
+.faq-header-bold {
+    font-size: 2.5rem;
+    font-weight: var(--bold-font-weight);
+}
+
+.faq-header-medium {
+    font-size: 1.3rem;
+    font-weight: var(--medium-font-weight);
+}
+
+.faq-header-small {
+    font-size: 1rem;
+    font-weight: var(--small-font-weight);
+}
+
+.faq-box {
+    box-shadow: 0 10px 20px black;
+    background: white;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.question {
+    cursor: pointer;
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: var(--medium-font-weight);
+    justify-content: space-between;
+    padding: 1.5em;
+}
+
+.faq-1, .faq-2, .faq-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.answer {
+    padding: 0em 2.2em;
+    max-height: 0;
+    overflow: hidden;
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 1165px){
     .fa-bars {
