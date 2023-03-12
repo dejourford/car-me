@@ -569,18 +569,19 @@ h6 {
 .about-section {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+    align-items: center;
     margin: 0 auto;
     padding: 2em 7em;
 }
 
 .about-left {
+    
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 20px;
-    max-width: 50%;
-    padding: 0em 3em;
+    justify-content: center;
+    padding: 2em 2em;
+    width: 70%;
 }
 
 .about-left-header-medium {
@@ -597,7 +598,6 @@ h6 {
 .about-left-text-small {
     font-size: 1rem;
     font-weight: var(--small-font-weight);
-    line-height: 1.7rem;
 }
 
 .about-right {
@@ -758,5 +758,31 @@ h6 {
 
     .rate, .reserve-btn {
         font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:1170px){
+    .about-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        text-align: center;
+    }
+
+    .about-left {
+        align-items: center;
+    }
+
+    .about-right {
+        max-width: 80% ;
+    }
+}
+
+@media screen and (max-width: 595px) {
+    .about-group {
+        display: flex;
+        flex-direction: column;
     }
 }
