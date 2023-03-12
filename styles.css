@@ -321,13 +321,13 @@ select, input {
 /* PLANNING SECTION */
 #scroll-up-arrow {
     background: black;
-    border: 3px solid gold;
+    border-radius: 4px;
     bottom: 20px;
-    color: white;
+    color: gold;
     cursor: pointer;
     display: block;
     font-size: 2rem;
-    padding: 0em 0.4em;
+    padding: 0em 0.5em;
     position: fixed;
     right: 20px;
 }
@@ -561,8 +561,75 @@ h6 {
 
 .about img {
     margin: 0 auto;
-    padding: 4em;
+    
     width: 90%;
+}
+
+/* ABOUT SECTION */
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 0 auto;
+    padding: 2em 7em;
+}
+
+.about-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    max-width: 50%;
+    padding: 0em 3em;
+}
+
+.about-left-header-medium {
+    font-size: 1.5rem;
+    font-weight: var(--medium-font-weight);
+}
+
+.about-left-header-bold {
+    font-size: 3rem;
+    font-weight: var(--bold-font-weight);
+    line-height: 3rem;
+}
+
+.about-left-text-small {
+    font-size: 1rem;
+    font-weight: var(--small-font-weight);
+    line-height: 1.7rem;
+}
+
+.about-right {
+    padding: 0em 3em;
+}
+
+.fa-gem, .fa-sack-dollar, .fa-money-bill-1-wave {
+    font-size: 3rem;
+    background: gold;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.about-group {
+    display: flex;
+    gap: 1em;
+    padding: 1rem;
+}
+
+#about-btn {
+    max-width: fit-content;
+}
+
+
+.about-right-header-large {
+    font-size: 1.5rem;
+    font-weight: var(--large-font-weight);
+}
+
+.about-right-text-medium {
+    font-size: 0.9rem;
+    font-weight: var(--small-font-weight);
 }
 
 /* MEDIA QUERIES */
