@@ -433,7 +433,7 @@ h6 {
 .car-collection-preview {
     display: flex;
     justify-content: space-between;
-    padding: 2em 3em;
+    padding: 4em 3em;
 }
 
 .car-collection-left {
@@ -550,6 +550,19 @@ h6 {
 
 .low-rates-text {
     color: gold;
+}
+
+
+.about {
+   display: flex;
+    padding: 2rem;
+   
+}
+
+.about img {
+    margin: 0 auto;
+    padding: 4em;
+    width: 90%;
 }
 
 /* MEDIA QUERIES */
