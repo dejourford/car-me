@@ -132,6 +132,7 @@ li {
 
 .fa-location-dot, .fa-calendar-days, .fa-car{
     color: gold;
+    font-size: 1.2rem;
 }
 
 .logo-text {
