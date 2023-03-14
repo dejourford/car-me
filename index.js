@@ -26,14 +26,24 @@ window.addEventListener('scroll', () => {
 
 
 // FAQ DROPDOWN BOX
-const questionOne = document.querySelector('.faq-1')
-const questionTwo = document.querySelector('.faq-2')
-const questionThree = document.querySelector('.faq-3')
-const answerOne = document.querySelector('#answer-1')
-const answerTwo = document.querySelector('#answer-2')
-const answerThree = document.querySelector('#answer-3')
+// const questionOne = document.querySelector('#faq-1')
+// const questionTwo = document.querySelector('.faq-2')
+// const questionThree = document.querySelector('.faq-3')
+// const answerOne = document.querySelector('#answer-1')
+// const answerTwo = document.querySelector('#answer-2')
+// const answerThree = document.querySelector('#answer-3')
 
-showAnswer = () => {
-  // answerOne.classList.toggle('answer')
-  answerOne.classList.toggle('active')
+var acc = document.getElementsByClassName("question");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
 }
