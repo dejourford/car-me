@@ -809,6 +809,51 @@ h6 {
     right: 0;
 }
 
+
+/* DOWNLOAD APP SECTION */
+.download-app {
+    background-image: url('images/get-app-background.png');
+    background-position-y: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8em 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    max-width: 100%;
+}
+
+.bd-text {
+    font-size: 2em;
+    font-weight: var(--bold-font-weight);
+}
+
+.sm-text {
+    font-size: 1em;
+    font-weight: var(--small-font-weight);
+    width: 50%;
+}
+
+.download-buttons {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    
+}
+
+.download-buttons img {
+    max-width: 200px;
+    cursor: pointer;
+}
+
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 1165px){
     .fa-bars {
@@ -972,3 +1017,48 @@ h6 {
     }
 }
 
+@media screen and (max-width: 1258px){
+    .bd-text {
+        font-size: 1.8rem;
+    }
+    .download-app {
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 999px){
+    
+
+    .download-app {
+      justify-content: center;
+      align-items: center;
+      background-image: none;
+    }
+
+    .bd-text {
+        font-size: 1.5rem;
+    }
+
+    .sm-text {
+        font-size: 1.3rem;
+        width: 100%;
+    }
+
+    .download-left {
+        align-items: center;
+        max-width: 90%;
+    }
+
+    .download-buttons {
+        gap: 3em;
+        
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .download-buttons {
+        flex-direction: column;
+    }
+}
