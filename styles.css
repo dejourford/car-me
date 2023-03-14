@@ -63,7 +63,7 @@ li {
     padding: 20px;
     position: absolute;
     text-align: center;
-    transition: 0.6s;
+    transition: 0.3s ease-in-out;
     width: 100%;
     z-index: 9999;
 
@@ -71,7 +71,7 @@ li {
 
 .mobile-nav.active {
     left: 0;
-    transition: 0.6s;
+    transition: 0.3s ease-in-out;
 }   /* end of open and close hamburger nav */ 
 
 
@@ -646,6 +646,9 @@ h6 {
 .review-section-header {
     padding: 0em 4em;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .review-header-medium {
@@ -719,10 +722,16 @@ h6 {
     background-repeat: no-repeat;
     background-size: 40%;
     background-position-x: -75px;
-    padding: 2em 6em;
+    background-position-y: 200px;
+    padding: 4em 0em;
 }
 
+
 .faq-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 4em;
     margin: 0 auto;
     max-width: 70%;
@@ -744,39 +753,60 @@ h6 {
     font-weight: var(--small-font-weight);
 }
 
-.faq-box {
-    box-shadow: 0 10px 20px black;
-    background: white;
-    max-width: 70%;
-    margin: 0 auto;
-}
 
-.question {
-    cursor: pointer;
-    display: flex;
-    font-size: 1.2rem;
-    font-weight: var(--medium-font-weight);
-    justify-content: space-between;
-    padding: 1.5em;
-}
-
-#faq-1, #faq-2, #faq-3 {
+.accordion-wrapper {
+    align-items: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 60%;
+    background: white;
 }
 
-.answer {
-    padding: 0em 2.2em;
-    max-height: 0;
+.accordion-wrapper button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordion {
+    background: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.5rem;
+    font-weight: var(--medium-font-weight);
+    transition: 0.4s;
+    max-width: 100%;
+}
+  
+
+.active {
+    background: gold;
+    transition: 0.3s ease-in-out;
+}
+
+
+  
+.panel {
+    padding: 24px 22px;
+    display: none;
+    font-size: 1rem;
+    font-weight: var(--small-font-weight);
+    background-color: white;
+    box-shadow: 0 10px 20px black;
     overflow: hidden;
+    max-width: 100%;
 }
 
-
-
-.answer:active {
-    max-height: auto;
-    padding: 2em 0em 6em 2em;
-    overflow:visible;
+.fa-angle-down {
+    position: relative;
+    right: 0;
 }
 
 /* MEDIA QUERIES */

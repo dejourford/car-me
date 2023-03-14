@@ -33,7 +33,7 @@ window.addEventListener('scroll', () => {
 // const answerTwo = document.querySelector('#answer-2')
 // const answerThree = document.querySelector('#answer-3')
 
-var acc = document.getElementsByClassName("question");
+var acc = document.getElementsByClassName("accordion");
 var i;
 
 for (i = 0; i < acc.length; i++) {
