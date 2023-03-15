@@ -3,11 +3,11 @@ const mobileNav = document.querySelector('.mobile-nav')
 
 
 showMenu = () => {
-    mobileNav.classList.add('active')
+    mobileNav.classList.add('show')
 }
 
 closeMenu = () => {
-    mobileNav.classList.remove('active')
+    mobileNav.classList.remove('show')
 }
 
 // SCROLL BUTTON

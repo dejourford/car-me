@@ -69,7 +69,7 @@ li {
 
 }
 
-.mobile-nav.active {
+.mobile-nav.show {
     left: 0;
     transition: 0.3s ease-in-out;
 }   /* end of open and close hamburger nav */ 
