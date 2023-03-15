@@ -903,6 +903,7 @@ footer .wrapper {
     background: lightgray;
     width: 250px;
     text-align: center;
+    font-size: 16px;
 }
 
 #email-btn {
@@ -1067,10 +1068,12 @@ footer .wrapper {
 
     .about-left {
         align-items: center;
+        padding: 0;
     }
 
     .about-right {
         max-width: 80% ;
+        padding: 0;
     }
 }
 
