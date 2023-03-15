@@ -1044,6 +1044,13 @@ footer .wrapper {
 }
 
 @media screen and (max-width: 410px) {
+    .book-a-car-header {
+        font-size: 1.7rem;
+        padding: 0.5em 0em;
+    }
+}
+
+@media screen and (max-width: 410px) {
     .car-info-field {
         border: none;
         display: flex;
