@@ -1,3 +1,4 @@
+
 // HAMBURGER MENU
 const mobileNav = document.querySelector('.mobile-nav')
 
@@ -25,14 +26,8 @@ window.addEventListener('scroll', () => {
 });
 
 
-// FAQ DROPDOWN BOX
-// const questionOne = document.querySelector('#faq-1')
-// const questionTwo = document.querySelector('.faq-2')
-// const questionThree = document.querySelector('.faq-3')
-// const answerOne = document.querySelector('#answer-1')
-// const answerTwo = document.querySelector('#answer-2')
-// const answerThree = document.querySelector('#answer-3')
 
+// accordion js
 var acc = document.getElementsByClassName("accordion");
 var i;
 
