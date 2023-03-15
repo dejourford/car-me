@@ -63,7 +63,7 @@ li {
     padding: 20px;
     position: absolute;
     text-align: center;
-    transition: 0.3s ease-in-out;
+    transition: 1s ease-in-out;
     width: 100%;
     z-index: 9999;
 
@@ -71,7 +71,7 @@ li {
 
 .mobile-nav.show {
     left: 0;
-    transition: 0.3s ease-in-out;
+    transition: 0.4s ease;
 }   /* end of open and close hamburger nav */ 
 
 
