@@ -703,7 +703,17 @@ header {
     }
  }
 
- @media screen and (max-width: 372px) {
+ @media screen and (max-width: 400px) {
+
+    
+
+    .trip-planning {
+        margin-top: 50em;
+       
+    }
+ }
+
+ @media screen and (max-width: 344px) {
 
     
 
@@ -713,22 +723,12 @@ header {
     }
  }
 
- @media screen and (max-width: 274px) {
+ @media screen and (max-width: 273px) {
 
     
 
     .trip-planning {
         margin-top: 70em;
-       
-    }
- }
-
- @media screen and (max-width: 257px) {
-
-    
-
-    .trip-planning {
-        margin-top: 80em;
        
     }
  }
