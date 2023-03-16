@@ -713,6 +713,27 @@ header {
     }
  }
 
+ @media screen and (max-width: 274px) {
+
+    
+
+    .trip-planning {
+        margin-top: 70em;
+       
+    }
+ }
+
+ @media screen and (max-width: 257px) {
+
+    
+
+    .trip-planning {
+        margin-top: 80em;
+       
+    }
+ }
+
+
  @media screen and (max-width: 1000px) {
     footer .wrapper {
         grid-template-columns: 1fr 1fr 1fr;
