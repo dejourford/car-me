@@ -295,6 +295,69 @@ header {
     gap: 5px;
 }
 
+/* PLANNING SECTION */
+.trip-planning {
+    padding: 12em 2em;
+}
+
+.trip-planning-header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3em 0em;
+}
+
+.trip-planning-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.trip-planning-sm-text {
+    font-size: 1.2rem ;
+    font-weight: var(--small-font-weight);
+}
+
+.trip-planning-lg-text {
+    font-size: 2.5rem ;
+    font-weight: var(--bold-font-weight);
+}
+
+.planning-feature-groups {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.planning-feature {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+    justify-content: center;
+    padding: 0rem 3rem;
+    text-align: center;
+}
+
+.planning-feature p {
+    font-weight: var(--small-font-weight);
+}
+
+.fa-car-tunnel, .fa-headset, .fa-car-burst {
+    background: black;
+    border-radius: 90% 30% 30% 90%;
+    color: gold;
+    font-size: 4rem;
+    padding: 0.3em;
+    
+}
+
+h5 {
+    font-size: 1.5rem;
+    font-weight: var(--large-font-weight);
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 1152px){
    
@@ -460,7 +523,73 @@ header {
      font-size: 1rem;
      padding-bottom: 2rem;
     }
+}
+
+@media screen and (max-width: 1039px) {
+
+   .trip-planning {
+    margin-top: 20em;
+    padding: 12em 0em;
+   }
+
+   .planning-feature-groups {
+    align-items: start;
+   }
+}
+
+@media screen and (max-width: 784px) {
+
+    
  
+    .planning-feature-groups {
+     grid-template-columns: 1fr 1fr;
+     gap: 2em;
+    }
+ }
+
+ @media screen and (max-width: 588px) {
+
+    
  
-     
-  }
+    .planning-feature-groups {
+     grid-template-columns: 1fr;
+     gap: 2em;
+    }
+
+    .trip-planning {
+        margin-top: 30em;
+       
+       }
+ }
+
+ @media screen and (max-width: 588px) {
+
+    .trip-planning-wrapper {
+        gap: 0;
+    }
+
+    .trip-planning {
+        margin-top: 35em;
+       
+    }
+ }
+
+ @media screen and (max-width: 424px) {
+
+    
+
+    .trip-planning {
+        margin-top: 40em;
+       
+    }
+ }
+
+ @media screen and (max-width: 372px) {
+
+    
+
+    .trip-planning {
+        margin-top: 60em;
+       
+    }
+ }
