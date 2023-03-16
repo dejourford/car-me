@@ -451,6 +451,7 @@ footer .wrapper {
     width: 250px;
     text-align: center;
     font-size: 16px;
+    padding: 0.9em;
 }
 
 #email-btn {
@@ -461,6 +462,13 @@ footer .wrapper {
     color: white;
     padding: 0.9em 2em;
     width: 250px;
+    font-weight: var(--bold-font-weight);
+}
+
+#email-btn:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
 }
 
 .section-4 {
