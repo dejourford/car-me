@@ -107,7 +107,7 @@ li {
     font-size: 1rem;
     font-weight: var(--large-font-weight);
     justify-content: space-between;
-    padding: 1em 8em;
+    padding: 1em 3em;
 }
 
 
@@ -314,7 +314,7 @@ header {
     }
 
     .site-nav {
-        padding: 0em 6em;
+        padding: 0em 2em;
     }
 }
 
