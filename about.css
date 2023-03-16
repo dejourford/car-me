@@ -107,7 +107,7 @@ li {
     font-size: 1rem;
     font-weight: var(--large-font-weight);
     justify-content: space-between;
-    padding: 1em 5em;
+    padding: 1em 8em;
 }
 
 
@@ -201,9 +201,109 @@ li {
 }   /* end of navigation */
 
 
+/* HEADER SECTION */
+header {
+    padding: 2rem;
+    background-image: url('images/red-gwagon.png');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-position-x: -259px;
+    height: 100vh;
+}
 
+
+.bd-text-heading {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5rem;
+    font-weight: var(--bold-font-weight);
+    font-size: 3rem;
+    padding: 2em 0em;
+}
+
+.bd-text {
+    font-size: 2.5rem;
+    font-weight: var(--bold-font-weight);
+    line-height: 3rem;
+}
+
+.sml-text {
+    font-size: 1.3rem;
+    font-weight: var(--small-font-weight);
+    line-height: 2.5rem;
+}
+
+.header-content {
+
+    padding: 0em 1em;
+    margin: 0 40em;
+    width: 50%;
+    
+    
+}
+
+.header-right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 1em;
+}
+
+.emphasis {
+    font-weight: var(--bold-font-weight);
+    color: gold;
+}
+
+.groups {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.fa-gauge, .fa-user-shield, .fa-earth-americas {
+    font-size: 3.5rem;
+    
+}
+
+.group-1, .group-2, .group-3 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.number {
+    font-size: 4.5rem;
+    font-weight: var(--bold-font-weight);
+    color: gold;
+}
+
+.img-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.group-text {
+    font-size: 1.3rem;
+    font-weight: var(--small-font-weight);
+    line-height: 1.3rem;
+}
+
+.text-group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 1152px){
+   
+
+    .site-nav {
+        padding: 0;
+    }
+}
+
 @media screen and (max-width: 1165px){
     .fa-bars {
         display: block;
@@ -214,6 +314,153 @@ li {
     }
 
     .site-nav {
-        padding: 0em 2em;
+        padding: 0em 6em;
     }
 }
+
+@media screen and (max-width: 1258px) {
+    header {
+        background-position-x: -342px;
+    }
+
+    .header-content {
+        margin: 0 32em;
+    }
+}
+
+@media screen and (max-width: 1127px) {
+    header {
+        background-position-x: -350px;
+    }
+
+    .header-content {
+        margin: 0 28em;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    header {
+        background-position-x: -375px;
+    }
+
+    .header-content {
+        margin: 0 25em;
+    }
+}
+
+@media screen and (max-width: 1039px) {
+
+header {
+    background-position: center;
+}
+
+.header-content {
+    margin: 0 auto;
+    padding-top: 20em;
+    width: 80%;
+}
+}
+
+@media screen and (max-width: 729px) {
+
+    header {
+        background-position: center;
+        background-size: 100%;
+    }
+    
+    .header-content {
+        margin: 0 auto;
+        padding-top: 20em;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 716px) {
+
+    .number {
+        font-size: 2.5rem;
+    }
+
+    .group-text {
+        font-size: 1rem;
+    }
+
+    .fa-gauge, .fa-user-shield, .fa-earth-americas {
+        font-size: 2.5rem;
+        
+    }
+
+}
+
+@media screen and (max-width: 680px) {
+
+   .header-content {
+    width: 90%;
+    padding: 15em 2em;
+   }
+
+}
+
+@media screen and (max-width: 596px) {
+
+    .header-content {
+     width: 90%;
+     padding: 15em 2em;
+    }
+ 
+    .groups {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+ }
+
+ @media screen and (max-width: 500px) {
+
+    .header-content {
+     width: 100%;
+     padding: 15em 2em;
+    }
+ 
+    .groups {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 30px;
+    }
+
+    .group-1, .group-2, .group-3 {
+        
+        align-items: center;
+    
+    }
+
+    .bd-text {
+        font-size: 2rem;
+       }
+       
+       
+        .sml-text {
+        font-size: 1.1rem;
+        padding-bottom: 2rem;
+       }
+
+ }
+
+
+
+ @media screen and (max-width: 315px) {
+
+    .bd-text {
+     font-size: 1.5rem;
+    }
+    
+    
+     .sml-text {
+     font-size: 1rem;
+     padding-bottom: 2rem;
+    }
+ 
+ 
+     
+  }
