@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    
+}
+
+
+/* CUSTOM SCROLLBAR */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: white;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: gold;
+    border-radius: 10px;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --bold-font-weight: 700;
+    --large-font-weight: 600;
+    --medium-font-weight: 500;
+    --small-font-weight: 400;
+}
+
+a {
+    color: inherit;
+    outline: none;
+    text-decoration: none;
+    
+}
+
+li {
+    list-style: none;
+}
+
+
+
+
+/* open and close mobile nav */
+.mobile-nav {
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    left: -2000px;
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+    transition: 1s ease-in-out;
+    width: 100%;
+    z-index: 9999;
+
+}
+
+.mobile-nav.show {
+    left: 0;
+    transition: 0.4s ease;
+}   /* end of open and close hamburger nav */ 
+
+
+.mobile-nav li {
+    list-style: none;
+}
+
+.mobile-links {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    gap: 30px;
+
+}
+
+.fa-xmark {
+    font-size: 2.5rem;
+    margin: 30px 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.fa-bars {
+    display: none;
+    font-size: 2rem;
+    margin: 20px 20px;
+}
+
+.site-nav {
+    align-items: center;
+    display: flex;
+    font-size: 1rem;
+    font-weight: var(--large-font-weight);
+    justify-content: space-between;
+    padding: 1em 3em;
+}
+
+
+.site-logo {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+}
+
+.fa-car-side {
+    color: gold;
+    font-size: 3rem;
+    transform: scaleX(-1);
+    transition: 0.5s;
+}
+
+.fa-car-side:hover {
+    color: black;
+    
+}
+
+.fa-location-dot, .fa-calendar-days{
+    color: gold;
+    font-size: 1.2rem;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+.logo-top-text {
+    font-weight: var(--bold-font-weight);
+}
+
+.logo-bottom-text {
+    font-size: 1.3rem;
+    font-weight: var(--small-font-weight);
+}
+
+
+
+.site-nav-links {
+    display: flex;
+}
+
+.site-links {
+    align-items: center;
+    display: flex;
+    gap: 30px;
+    font-size: 1rem;
+    font-weight: var(--large-font-weight);
+}
+
+.site-links a {
+    transition: 0.5s;
+}
+
+.site-links a:hover {
+    color: gold;
+}
+
+.site-links-right {
+    display: flex;
+    gap: 20px;
+}
+
+.sign-in-btn {
+    font-size: 1rem;
+    transition: 0.5s;
+}
+
+.sign-in-btn:hover {
+    color: gold;
+}
+
+.primary-btn {
+    background: gold;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0.5px 0.5px 5px black;
+    color: white;
+    padding: 0.9em 2em;
+    transition: 0.5s;
+}
+
+.primary-btn:hover {
+    background: black;
+}   /* end of navigation */
+
+.bd-text-heading {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5rem;
+    font-weight: var(--bold-font-weight);
+    font-size: 3rem;
+    padding: 2em 0em;
+}
+
+
+
+/* MEDIA QUERIES */
+/* MEDIA QUERIES */
+@media screen and (max-width: 1152px){
+   
+
+    .site-nav {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1165px){
+    .fa-bars {
+        display: block;
+    }
+
+    .site-links, .site-links-right {
+        display: none;
+    }
+
+    .site-nav {
+        padding: 0em 2em;
+    }
+}
