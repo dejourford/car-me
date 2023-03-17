@@ -202,7 +202,7 @@ li {
 
 /* HERO SECTION */
 .hero {
-    align-items: flex-start;  
+    align-items: center;  
     background-image: url('images/hero-background.webp');
     background-position: right;
     background-size: 800px;
