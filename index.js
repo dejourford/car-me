@@ -48,3 +48,65 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+// DYNAMIC CAR DISPLAY
+const model = document.querySelector('#model')
+const make = document.querySelector('#make')
+const doors = document.querySelector('#doors')
+const transmission = document.querySelector('#transmission')
+const fuel = document.querySelector('#fuel')
+
+// array of cars
+const cars = {
+  'Honda Odyssey': {
+    'make': 'Honda',
+    'model': 'Odyssey',
+    'doors': '4 Doors',
+    'transmission': 'Automatic',
+    'fuel': 'Gasoline'
+  },
+
+  'Mercedes G-Wagon': {
+    'make': 'Mercedes',
+    'model': 'G-Wagon',
+    'doors': '4 Doors',
+    'transmission': 'Automatic',
+    'fuel': 'Diesel'
+  },
+
+  'Kia Sportage': {
+    'make': 'Kia',
+    'model': 'Sportage',
+    'doors': '4 Doors',
+    'transmission': 'Automatic',
+    'fuel': 'Gasoline'
+  },
+
+  'Lexus RX-350': {
+    'make': 'Lexus',
+    'model': 'RX-350',
+    'doors': '4 Doors',
+    'transmission': 'Automatic',
+    'fuel': 'Gasoline'
+  },
+
+  'Porsche 311 ': {
+    'make': 'Porsche',
+    'model': '311',
+    'doors': '2 Doors',
+    'transmission': 'Manual',
+    'fuel': 'Diesel'
+  },
+
+  'Toyota Camry': {
+    'make': 'Toyota',
+    'model': 'Camry',
+    'doors': '4 Doors',
+    'transmission': 'Automatic',
+    'fuel': 'Gasoline'
+  }
+
+
+}
+
+console.log(cars)
