@@ -220,8 +220,11 @@ li {
 
 .wrapper {
     display: grid;
+    justify-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2em;
+    width: 100vw;
+    
 }
 
 .card {
@@ -341,4 +344,14 @@ li {
     .wrapper {
         grid-template-columns: 1fr;
     }
+}
+
+@media screen and (max-width: 418px){
+    .heading-text {
+        display: none;
+    }
+
+   
+
+
 }

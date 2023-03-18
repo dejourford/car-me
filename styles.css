@@ -28,6 +28,7 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
+
 }
 
 :root {
@@ -964,6 +965,9 @@ footer .wrapper {
         font-size: 1.4rem;
     }
     
+    .cards {
+        
+    }
 }
 
 @media screen and (max-width: 1060px) {
