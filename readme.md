@@ -13,6 +13,8 @@ realistic website that an actual rental business would pay me to make. I wanted 
 --Javascript
 <br>
 --DOM Manipulation
+<br>
+--array of objects and dot notation to do the DOM manipulation
 <h1>LESSONS LEARNED</h1>
 -padding is useful when trying to get lines to wrap
 <br>
@@ -33,3 +35,5 @@ realistic website that an actual rental business would pay me to make. I wanted 
 --maybe a better color scheme?
 <br>
 --need to fix issue of the scroll to top button on mobile devices causing page to instantly load in the middle of the page instead of the top
+<br>
+--learned how to use objects in arrays to manipulate the DOM
