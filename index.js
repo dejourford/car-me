@@ -67,7 +67,7 @@ const cars = {
     'transmission': 'Automatic',
     'fuel': 'Gasoline',
     'rate': '$30 / per day',
-    'img': 'honda-odyssey.png'
+    'img': 'images/honda-odyssey.png'
   },
 
   'Mercedes_GWagon': {
@@ -77,6 +77,7 @@ const cars = {
     'transmission': 'Automatic',
     'fuel': 'Diesel',
     'rate': '$100 / per day',
+    'img': 'images/g-wagon.png',
   },
 
   'Kia_Sportage': {
@@ -86,6 +87,7 @@ const cars = {
     'transmission': 'Automatic',
     'fuel': 'Gasoline',
     'rate': '$40 / per day',
+    'img': 'images/kia-sportage.png',
   },
 
   'Lexus_RX350': {
@@ -95,6 +97,7 @@ const cars = {
     'transmission': 'Automatic',
     'fuel': 'Gasoline',
     'rate': '$45 / per day',
+    'img': 'images/lexus-rx-350.png',
   },
 
   'Porsche_311': {
@@ -104,6 +107,7 @@ const cars = {
     'transmission': 'Manual',
     'fuel': 'Diesel',
     'rate': '$70 / per day',
+    'img': 'images/porsche-311.png',
   },
 
   'Toyota_Camry': {
@@ -113,6 +117,7 @@ const cars = {
     'transmission': 'Automatic',
     'fuel': 'Gasoline',
     'rate': '$40 / per day',
+    'img': 'images/toyota-camry.png',
   }
 
 
@@ -123,6 +128,7 @@ const cars = {
   transmission.textContent = cars.Honda_Odyssey.transmission
   fuel.textContent = cars.Honda_Odyssey.fuel
   rate.textContent = cars.Honda_Odyssey.rate
+  image.src = cars.Honda_Odyssey.img
 
 
 const hondaOdyssey = document.querySelector('#hondaOdyssey').addEventListener('click', () => {
@@ -142,6 +148,7 @@ const mercedesGWagon = document.querySelector('#gWagon').addEventListener('click
   transmission.textContent = cars.Mercedes_GWagon.transmission
   fuel.textContent = cars.Mercedes_GWagon.fuel
   rate.textContent = cars.Mercedes_GWagon.rate
+  image.src = cars.Mercedes_GWagon.img
 })
 
 const kiaSportage = document.querySelector('#kiaSportage').addEventListener('click', () => {
@@ -151,6 +158,7 @@ const kiaSportage = document.querySelector('#kiaSportage').addEventListener('cli
   transmission.textContent = cars.Kia_Sportage.transmission
   fuel.textContent = cars.Kia_Sportage.fuel
   rate.textContent = cars.Kia_Sportage.rate
+  image.src = cars.Kia_Sportage.img
 })
 
 const lexusRX = document.querySelector('#lexusRX350').addEventListener('click', () => {
@@ -160,6 +168,7 @@ const lexusRX = document.querySelector('#lexusRX350').addEventListener('click', 
   transmission.textContent = cars.Lexus_RX350.transmission
   fuel.textContent = cars.Lexus_RX350.fuel
   rate.textContent = cars.Lexus_RX350.rate
+  image.src = cars.Lexus_RX350.img
 })
 
 const porsche311 = document.querySelector('#porsche311').addEventListener('click', () => {
@@ -169,6 +178,7 @@ const porsche311 = document.querySelector('#porsche311').addEventListener('click
   transmission.textContent = cars.Porsche_311.transmission
   fuel.textContent = cars.Porsche_311.fuel
   rate.textContent = cars.Porsche_311.rate
+  image.src = cars.Porsche_311.img
 })
 
 const toyotaCamry = document.querySelector('#toyotaCamry').addEventListener('click', () => {
@@ -178,4 +188,5 @@ const toyotaCamry = document.querySelector('#toyotaCamry').addEventListener('cli
   transmission.textContent = cars.Toyota_Camry.transmission
   fuel.textContent = cars.Toyota_Camry.fuel
   rate.textContent = cars.Toyota_Camry.rate
+  image.src = cars.Toyota_Camry.img
 })

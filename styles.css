@@ -471,10 +471,13 @@ h6 {
     align-items: center;
     display: flex;
     justify-content: center;
+    width: 50%;
 }
 
-.car-collection-middle  img{
+.car-collection-middle img{
     width: 100%;
+    object-fit: cover;
+    
 }
 
 .car-collection-right {
