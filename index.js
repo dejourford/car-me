@@ -104,7 +104,7 @@ const cars = {
     'make': 'Porsche',
     'model': '311',
     'doors': '2 Doors',
-    'transmission': 'Manual',
+    'transmission': 'Automatic',
     'fuel': 'Diesel',
     'rate': '$70 / per day',
     'img': 'images/porsche-311.png',
