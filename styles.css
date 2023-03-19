@@ -297,8 +297,9 @@ h2 {
 }
 
 select, input {
-    color: gray;
+    color: black;
     font-size: 1.1rem;
+    font-weight: var(--large-font-weight);
     padding: 1rem;
     width: 100%;
 }
