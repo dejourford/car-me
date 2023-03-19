@@ -904,11 +904,13 @@ footer .wrapper {
 #email-input {
     border-radius: 3px;
     border: none;
-    color: white;
+    color: black;
+    font-weight: var(--large-font-weight);
     background: lightgray;
     width: 250px;
     text-align: center;
     font-size: 16px;
+    
 }
 
 #email-btn {
@@ -919,6 +921,13 @@ footer .wrapper {
     color: white;
     padding: 0.9em 2em;
     width: 250px;
+    cursor: pointer;
+}
+
+#email-btn:hover {
+    background: black;
+    color: white;
+    font-weight: var(--large-font-weight);
 }
 
 .section-4 {
