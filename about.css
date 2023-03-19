@@ -442,15 +442,18 @@ footer .wrapper {
     flex-direction: column;
     gap: 0.5em;
 }
+.section-2 a:hover {
+    text-decoration: underline;
+}
 
 #email-input {
     border-radius: 3px;
     border: none;
-    color: white;
     background: lightgray;
     width: 250px;
     text-align: center;
     font-size: 16px;
+    font-weight: var(--large-font-weight);
     padding: 0.9em;
 }
 
@@ -467,8 +470,9 @@ footer .wrapper {
 
 #email-btn:hover {
     background: black;
-    color: white;
     cursor: pointer;
+    background: black;
+    color: white;font-weight: var(--large-font-weight);
 }
 
 .section-4 {

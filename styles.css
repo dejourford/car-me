@@ -901,6 +901,10 @@ footer .wrapper {
     gap: 0.5em;
 }
 
+.section-2 a:hover {
+    text-decoration: underline;
+}
+
 #email-input {
     border-radius: 3px;
     border: none;
