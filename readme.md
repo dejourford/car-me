@@ -1,5 +1,5 @@
 <h1>CarMe Rental Car Website</h1>
-<img src="images/carme pic.png">
+<img src="https://media.giphy.com/media/S1tkPqDbPNaCPc5yoo/giphy.gif">
 
 <h1>PURPOSE</h1>
 The purpose of this project was to build a modern and 
